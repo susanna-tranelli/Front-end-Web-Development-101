@@ -1,9 +1,12 @@
-.synopsis {
+p:first-of-type {
     color: #7E8184;
     font-style: italic;
 }
 
-.button {
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
     color: #FFF;
     background-color: #5995DA;
     font-weight: bold;
@@ -15,12 +18,82 @@
     margin: 20px auto;
 }
 
+.button:hover,
+.button:visited:hover {
+    color: #FFFFFF;
+    background-color: #76AEED;  /* Light blue */
+}
+
+.button:active,
+.button:visited:active {
+    color: #FFFFFF;
+    background-color: blue;
+}
+
 .page {
     width: 600px;
     margin: 0 auto;
 }
 
+#button-2 {
+    background-color: #990000;
+}
+
 .call-to-action {
     font-style: italic;
     background-color: #EEB75A;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+    font-style: italic;
+    background-color: yellow;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: lightcoral;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+    background-color: yellow;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
+a:visited:active {
+    color: deeppink;
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+.page > p:first-of-type {
+    color: #7E8184;
+    font-style: italic;
+}
+
+#button-2 {
+    color: #5D6063;
 }
