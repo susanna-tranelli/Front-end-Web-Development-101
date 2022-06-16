@@ -1,0 +1,15 @@
+h1 {
+    color: cornflowerblue;
+}
+img:hover {
+    background-color: yellow;
+}
+
+.bacon {
+    background-color: darkred;
+}
+
+.hamburger {
+    background-color: darkgreen;
+    width: 160px;
+}
