@@ -33,11 +33,29 @@ p {
     margin: 10px 20px 25px 20px;
 }
 
+.img-container {
+    justify-content: normal;
+}
+
 .img-equilibrium {
     width: 305px;
     margin: 24px 24px 15px 24px;
     border-radius: 9px;
 }
+
+.img-equilibrium:hover {
+    opacity: 0.2;
+}
+
+.icon-view {
+    position: absolute;
+    visibility: hidden;
+}
+
+.icon-view:hover {
+    visibility: visible;
+}
+
 .first-icon {
     display: flex;
     flex-direction: row;
