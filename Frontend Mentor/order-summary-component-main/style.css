@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+}
+
+.box-container {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+    width: 450px;
+    height: 698px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+img {
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-size: 27px;
+    color: hsl(223, 47%, 23%);
+    margin: 30px auto 0;
+}
+
+.paragraph {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin: 0 70px;
+}
+
+div {
+    display: flex;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.top-container {
+    display: flex;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    justify-content: flex-start;
+}
+
+.prize {
+    display: flex;
+    text-align: left;
+}
+
+.icon-music {
+    margin: 0 15px;
+}
