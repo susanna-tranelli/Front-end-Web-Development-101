@@ -26,6 +26,11 @@ h1 {
     font-size: 22px;
 }
 
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
 p {
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
@@ -35,21 +40,41 @@ p {
 
 .img-container {
     justify-content: normal;
+    position: relative;
 }
 
 .img-equilibrium {
     width: 305px;
     margin: 24px 24px 15px 24px;
     border-radius: 9px;
+    z-index: 1;
 }
 
-.img-equilibrium:hover {
+.img-equilibrium:hover + .icon-view,
+.img-equilibrium:hover + .overlay,
+.overlay:hover, .overlay:hover + .icon-view {
+    visibility: visible;
+}
+
+.overlay {
+    width: 305px;
+    height: 305px;
+    border-radius: 9px;
+    background-color: hsl(178, 100%, 50%);
+    visibility: hidden;
+    position: absolute;
+    top: 24px;
+    left: 24px;
     opacity: 0.2;
+    z-index: 2;
 }
 
 .icon-view {
     position: absolute;
     visibility: hidden;
+    top: calc(50% - 24px);
+    left: calc(50% - 24px);
+    z-index: 3;
 }
 
 .icon-view:hover {
@@ -122,6 +147,11 @@ h2 {
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
     margin: 0px 0px 0px 5px;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .credits {
