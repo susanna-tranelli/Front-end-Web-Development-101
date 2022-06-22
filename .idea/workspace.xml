@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="webstorm file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="add gitignore">
       <change beforePath="$PROJECT_DIR$/TC2WDB/CSS - MySite/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/TC2WDB/CSS - MySite/CSS/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TC2WDB/CSS - MySite/Index.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/TC2WDB/CSS - MySite/Index.HTML" afterDir="false" />
     </list>
@@ -29,22 +28,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/stranelli/Downloads/Bacon Fansite Start Here/CSS - Bacon Fansite/index.html&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Frontend Mentor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB\CSS - MySite\CSS" />
@@ -71,7 +61,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="" />
+      <changelist id="1f44d981-fc69-492b-af53-5794526cdb88" name="Changes" comment="" />
       <created>1655280652816</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -81,6 +71,7 @@
       <workItem from="1655287780640" duration="14833000" />
       <workItem from="1655359037304" duration="12435000" />
       <workItem from="1655884088763" duration="3470000" />
+      <workItem from="1655902773314" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="webstorm file">
       <created>1655287481427</created>
@@ -89,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655287481427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="scaffhold fourth exercise">
+      <created>1655902948706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655902948706</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add gitignore">
+      <created>1655903068212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903068212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="webstorm file" />
-    <option name="LAST_COMMIT_MESSAGE" value="webstorm file" />
+    <MESSAGE value="scaffhold fourth exercise" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
 </project>
