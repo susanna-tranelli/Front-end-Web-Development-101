@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="add gitignore">
-      <change beforePath="$PROJECT_DIR$/TC2WDB/CSS - MySite/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/TC2WDB/CSS - MySite/CSS/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TC2WDB/CSS - MySite/Index.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/TC2WDB/CSS - MySite/Index.HTML" afterDir="false" />
-    </list>
+    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="CTCG2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
