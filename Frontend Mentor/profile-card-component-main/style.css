@@ -30,8 +30,8 @@ img {
 .victor {
     border-radius: 100px;
     position: absolute;
-    top: 90px;
-    left: 125px;
+    bottom: -48px;
+    left: calc(50% - 48px);
 }
 
 .main-container .attribution {
@@ -91,4 +91,12 @@ hr {
 .specific {
     font-size: 13px;
     color: hsl(0, 0%, 59%);
+}
+
+.pattern-card {
+    background-image: url("images/bg-pattern-card.svg");
+    height: 140px;
+    position: relative;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
