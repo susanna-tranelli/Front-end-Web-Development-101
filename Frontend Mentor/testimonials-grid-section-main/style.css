@@ -1,0 +1,156 @@
+html {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    background-color: #EDF2F8;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 13px;
+    margin: 0;
+    line-height: 18px;
+}
+
+.graduate {
+    font-size: 10px;
+}
+
+.name {
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    max-height: 100%;
+}
+
+.card {
+    flex-grow: 1;
+    padding: 30px 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.row-container {
+    display: flex;
+}
+
+.row-container:first-child {
+    margin-bottom: 24px;
+}
+
+.first-box,
+.fourth-box {
+    width: 470px;
+}
+
+.second-box,
+.third-box,
+.fifth-box {
+    width: 190px;
+
+}
+
+.first-box h1, .first-box .name,
+.second-box h1, .second-box .name,
+.fourth-box h1, .fourth-box .name {
+    color: #FFFFFF;
+}
+
+
+
+.first-box p, .first-box .graduate,
+.second-box p, .second-box .graduate,
+.third-box p, .third-box .graduate,
+.fourth-box p, .fourth-box .graduate,
+.fifth-box p, .fifth-box .graduate {
+    color: hsl(0, 0%, 81%);
+}
+
+.third-box h1, .third-box .name,
+.fifth-box h1, .fifth-box .name {
+    color: hsl(217, 19%, 35%);
+}
+
+.first-box {
+    background-color: #733FC8;
+    position: relative;
+}
+
+.quotation {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    border-radius: 0;
+    border: none;
+    width: 105px;
+    height: 105px;
+}
+
+.second-box {
+    background-color: #49556B;
+}
+
+.third-box,
+.fifth-box {
+    background-color: #FFFFFF;
+}
+
+.fourth-box {
+    background-color: #18202D;
+}
+
+.fifth-box {
+    margin-right: 0;
+}
+
+img {
+    width: 28px;
+    border-radius: 100%;
+    border: solid #9E77D6 2px;
+    margin-right: 15px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 19px;
+    position: relative;
+}
+
+@media only screen and (max-width: 1399px) {
+    .container,
+    .row-container {
+        flex-direction: column;
+    }
+    .row-container:first-child {
+        margin-bottom: 0;
+    }
+    .card {
+        width: 250px;
+        margin-bottom: 24px;
+        margin-right: 0;
+    }
+    .fifth-box {
+        margin-bottom: 0;
+    }
+
+}
+

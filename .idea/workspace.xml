@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="webstorm file">
+    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="add gitignore">
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/testimonials-grid-section-main/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TC2WDB/CSS - MySite/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/TC2WDB/CSS - MySite/CSS/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TC2WDB/CSS - MySite/Index.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/TC2WDB/CSS - MySite/Index.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend Mentor/testimonials-grid-section-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend Mentor/testimonials-grid-section-main/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
