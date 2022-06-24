@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="add gitignore">
-      <change afterPath="$PROJECT_DIR$/Frontend Mentor/testimonials-grid-section-main/style.css" afterDir="false" />
+    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="webstorm file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend Mentor/testimonials-grid-section-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend Mentor/testimonials-grid-section-main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend Mentor/testimonials-grid-section-main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend Mentor/testimonials-grid-section-main/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +80,7 @@
       <workItem from="1655287780640" duration="14833000" />
       <workItem from="1655359037304" duration="12435000" />
       <workItem from="1655884088763" duration="3470000" />
+      <workItem from="1656083395372" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="webstorm file">
       <created>1655287481427</created>
