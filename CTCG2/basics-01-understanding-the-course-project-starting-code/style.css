@@ -14,17 +14,119 @@ body {
     padding: 20px;
 }
 
-h1 {
+.section-title {
+    color: #4a006f;
+    text-align: center;
+
+}
+#product-overview h1 {
     color: white;
     font-family: 'Special Elite', cursive;
 }
 
-.section-title {
-    color: chartreuse;
+.plan {
+    background: #e0b1cb;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
+.plan__highlighted {
+    background: #5e548e;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 50%);
+}
+
+.plan__annotation {
+    background: white;
+    padding: 10px;
+    color: #a564d3;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 50%);
+    border-radius: 4px;
+}
+
+#key-features {
+    background-color: #b43e8f;
+    margin-top: 80px;
+}
+
+#key-features .section-title {
+    color: #290628;
+    padding-top: 32px;
+}
+
+.key-feature__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+}
+
+.key-feature__description {
+    text-align: center;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature{
+    margin: 6px 0;
+}
+
+.plan__title {
+    color: #231942;
+}
+
+.bottom {
+    background-color: #372549;
+    color: white;
+    font-family: inherit;
+    border: 2px solid #1a1423;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bottom:hover,
+.bottom:active {
+    background-color: #a564d3;
+    color: black;
+}
+
+.bottom:focus {
+    outline: none;
+}
+
+.plan__price {
+    color: #a564d3;
+}
+
+.plan__highlighted .plan__title {
+    color: white;
+}
+
+.plan__highlighted .plan__price {
+    color: #290628;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+}
+
+
 .main-header {
-    background-color: peachpuff;
+    background-color: #ffcad4;
     padding: 10px 20px;
     width: 100%;
 }
