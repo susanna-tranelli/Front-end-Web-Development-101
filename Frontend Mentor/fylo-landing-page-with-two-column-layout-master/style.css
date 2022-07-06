@@ -1,0 +1,80 @@
+* {
+    width: border-box;
+    height: border-box;
+}
+
+body {
+    flex-direction: column;
+}
+@media (max-width: 40rem) {
+
+    body {
+        margin: 25px;
+    }
+
+    .fylo-logo {
+        width: 25%;
+        height: 25%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        color: hsl(238, 22%, 44%);
+    }
+
+    li {
+        display: block;
+        padding: 5px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .illustration {
+        display: inline-block;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 13px;
+        padding: 0 15px;
+    }
+
+    p,
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: hsl(243, 87%, 12%);
+    }
+
+    input {
+        display: block;
+        margin: 0 auto 15px;
+        width: 295px;
+        height: 20px;
+        text-align: left;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    button {
+        background-color: #2F65F9;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        height: 35px;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 2px 2px 2px rgb(0 0 0 / 0.3);
+    }
+}
