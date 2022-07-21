@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="webstorm file">
-      <change afterPath="$PROJECT_DIR$/final-test/image/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-test/image/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-test/image/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-test/image/image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-test/image/image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-test/style.css" afterDir="false" />
+    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JS-TCG2/assets/scripts/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-TCG2/assets/scripts/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-TCG2/assets/styles/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-TCG2/exercise/assignment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-TCG2/exercise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-TCG2/exercise/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-TCG2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/rockPaperScissorGame.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2AbaHOghbYzUQXcNZm7NWVHlkUq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,44 +35,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/stranelli/Documents/Progetti/Front-end-Web-Development-101/final-test/image",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/stranelli/Documents/Progetti/Front-end-Web-Development-101/JS-TCG2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\JS-TCG2" />
       <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\final-test\image" />
       <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\final-test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\JS-TCG2\exercise" />
+      <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\JS-TCG2\assets" />
+      <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\JS-TCG2\getting-started-02-first-app-done" />
       <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\final-test\image" />
       <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB\CSS - MySite\CSS" />
-      <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB\CSS - Bacon Fansite" />
-      <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB" />
-      <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB\HTML" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index1.html">
+  <component name="RunManager" selected="Node.js.script.js">
     <configuration name="index1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Front-end-Web-Development-101/TC2WDB/CSS - Bacon Fansite/index1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Front-end-Web-Development-101/IIH/css-selectors/selectors.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/JS-TCG2/assets/scripts">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.script.js" />
         <item itemvalue="JavaScript Debug.index1.html" />
         <item itemvalue="JavaScript Debug.selectors.html" />
       </list>
@@ -90,6 +96,9 @@
       <workItem from="1655287780640" duration="14833000" />
       <workItem from="1655359037304" duration="12435000" />
       <workItem from="1655884088763" duration="3470000" />
+      <workItem from="1658132334402" duration="22357000" />
+      <workItem from="1658324235850" duration="1293000" />
+      <workItem from="1658411742177" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="webstorm file">
       <created>1655287481427</created>
