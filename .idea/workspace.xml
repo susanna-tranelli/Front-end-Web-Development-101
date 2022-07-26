@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="webstorm file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/README-template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/design/active-states-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/design/active-states-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/design/desktop-design-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/design/desktop-design-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/design/desktop-preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/design/mobile-design-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/design/mobile-design-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/bg-desktop-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/bg-desktop-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/bg-mobile-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/bg-mobile-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/icon-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/icon-cross.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/images/icon-sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend Mentor/todo-app-main/style-guide.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,22 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/stranelli/Downloads/Bacon Fansite Start Here/CSS - Bacon Fansite/index.html&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ldivincenzo/Alten/Stagisti/Susanna/Front-end-Web-Development-101/Frontend Mentor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB\CSS - MySite\CSS" />
