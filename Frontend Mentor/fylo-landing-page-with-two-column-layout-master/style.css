@@ -1,0 +1,254 @@
+* {
+    width: border-box;
+    height: border-box;
+}
+
+body {
+    flex-direction: column;
+}
+@media (max-width: 27.5rem) {
+    body {
+        margin: 25px;
+    }
+
+    .fylo-logo {
+        width: 25%;
+        height: 25%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        color: hsl(238, 22%, 44%);
+    }
+
+    li {
+        display: block;
+        padding: 5px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .illustration {
+        display: inline-block;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .first__paragraph,
+    .second__paragraph {
+        font-size: 15px;
+        padding: 0 10px;
+        line-height: 25px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .second__paragraph {
+        padding: 0;
+        text-align: left;
+        color: hsl(238, 22%, 44%);
+    }
+
+    .first__paragraph,
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: hsl(243, 87%, 12%);
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 10px;
+        text-align: left;
+        margin-top: 25px;
+    }
+
+    .icon-quotes {
+        position: absolute;
+        top: 15px;
+        height: 15px;
+    }
+
+    input {
+        margin: 0 0 15px;
+        width: 375px;
+        height: 35px;
+        text-align: left;
+        font-size: 10px;
+        padding-left: 10px;
+        box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+        border: 1px solid hsl(0, 0%, 75%);
+        border-radius: 3px;
+    }
+
+    button {
+        background-color: #2F65F9;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        height: 35px;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 2px 2px 2px #ccc;
+    }
+
+    .link__fylo {
+        color: hsl(170, 45%, 43%);
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+        width: 50%;
+        margin: 50px auto;
+        padding: 0 0 8px 0;
+    }
+
+    .link__fylo-arrow {
+        width: 20px;
+        height: 20px;
+        margin-left: 7px;
+    }
+
+    .second-section {
+        box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+        border-radius: 10px;
+        margin: 30px;
+        line-height: 20px;
+        padding: 10px 32px;
+        position: relative;
+    }
+
+    .icon-quotes {
+        position: absolute;
+    }
+
+    .info-testimonial {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        left: -10px;
+    }
+
+    .testimonial__personal-name {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .testimonial__personal-name,
+    .testimonial__personal-work {
+        margin: 0;
+    }
+
+    .testimonial__personal-work {
+        color: hsl(238, 22%, 44%);
+        font-size: 8px;
+    }
+
+    .testimonial {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+    .testimonial__personal {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .pre-footer {
+        background-color: #575989;
+        margin: 100px -25px 0;
+        padding: 50px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .pre-footer__title,
+    .pre-footer__paragraph {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .pre-footer__title {
+        font-size: 25px;
+    }
+
+    .pre-footer__paragraph {
+        font-size: 17px;
+        margin: 25px auto;
+    }
+
+    .bottom-email,
+    .bottom-button {
+        display: flex;
+        flex-direction: column;
+        margin: 15px auto;
+        height: 35px;
+    }
+
+    .bottom-email {
+        width: 265px;
+    }
+
+
+    .bottom-button {
+        align-items: stretch;
+        justify-content: center;
+        width: 280px;
+        box-shadow: none;
+        margin: auto;
+    }
+
+    footer {
+        background-color: #07043B;
+        margin: 0 -25px 0;
+        padding: 50px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .footer-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-details__logo {
+        filter:  brightness(0) invert(1);
+        width: 50%;
+        height: 50%;
+    }
+
+    .footer-details__icon {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-detail {
+        width: 5%;
+        height: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}

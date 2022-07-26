@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73f9cbec-6922-4ea5-aa9a-e06ac0aed210" name="Changes" comment="webstorm file">
-      <change afterPath="$PROJECT_DIR$/TC2WDB/DOM/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC2WDB/DOM/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC2WDB/DOM/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +13,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="6-turning-design-mockups-into-code" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,7 +33,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/stranelli/Documents/Progetti/Front-end-Web-Development-101/TC2WDB/CSS - MySite/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/stranelli/Downloads/Bacon Fansite Start Here/CSS - Bacon Fansite/index.html&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,9 +44,6 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB\CSS - MySite\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB\CSS - MySite\CSS" />
       <recent name="C:\Users\stranelli\Documents\Progetti\Front-end-Web-Development-101\TC2WDB\CSS - Bacon Fansite" />
@@ -72,11 +61,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.selectors.html" />
         <item itemvalue="JavaScript Debug.index1.html" />
         <item itemvalue="JavaScript Debug.selectors.html" />
-        <item itemvalue="JavaScript Debug.index1.html" />
-        <item itemvalue="JavaScript Debug.index1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +79,7 @@
       <workItem from="1655287780640" duration="14833000" />
       <workItem from="1655359037304" duration="12435000" />
       <workItem from="1655884088763" duration="3470000" />
-      <workItem from="1658820535765" duration="711000" />
+      <workItem from="1657179158929" duration="15840000" />
     </task>
     <task id="LOCAL-00001" summary="webstorm file">
       <created>1655287481427</created>
