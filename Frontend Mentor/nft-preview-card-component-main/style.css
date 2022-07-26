@@ -1,0 +1,159 @@
+html {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+}
+
+body {
+    background-color: #0D1A2D;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-container {
+    background-color: #15273F;
+    width: 352px;
+    height: 598px;
+    border-radius: 9px;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    margin: 0 20px;
+    color: white;
+    font-size: 22px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin: 10px 20px 25px 20px;
+}
+
+.img-container {
+    justify-content: normal;
+    position: relative;
+}
+
+.img-equilibrium {
+    width: 305px;
+    margin: 24px 24px 15px 24px;
+    border-radius: 9px;
+    z-index: 1;
+}
+
+.img-equilibrium:hover + .icon-view,
+.img-equilibrium:hover + .overlay,
+.overlay:hover, .overlay:hover + .icon-view {
+    visibility: visible;
+}
+
+.overlay {
+    width: 305px;
+    height: 305px;
+    border-radius: 9px;
+    background-color: hsl(178, 100%, 50%);
+    visibility: hidden;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    opacity: 0.2;
+    z-index: 2;
+}
+
+.icon-view {
+    position: absolute;
+    visibility: hidden;
+    top: calc(50% - 24px);
+    left: calc(50% - 24px);
+    z-index: 3;
+}
+
+.icon-view:hover {
+    visibility: visible;
+}
+
+.first-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin: auto;
+    height: auto;
+}
+
+.second-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.clock {
+    margin: auto;
+    height: auto;
+}
+
+.amount {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    margin-right: auto;
+    margin-left: 24px;
+}
+
+.date {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.detail {
+    display: flex;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    margin: 24px;
+    border-style: solid;
+    border-bottom: 1px;
+}
+
+.final {
+    display: flex;
+    margin: 0 24px;
+}
+
+.author {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    margin: 0;
+}
+.avatar {
+    width: 30px;
+    margin-right: 24px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+h2 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 0px 5px;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.credits {
+    margin-top: 10%;
+}
