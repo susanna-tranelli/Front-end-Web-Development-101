@@ -1,0 +1,151 @@
+* {
+    font-family: 'Overpass', sans-serif;
+
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.card {
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 10%, 10%));
+    width: 375px;
+    padding: 35px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.card__img {
+    background-color: #323840d6;
+    border-radius: 50%;
+    border: solid 15px #323840d6;
+}
+
+.card__title {
+    color: #ffffff;
+}
+
+.card__title--no-margin {
+    margin: 0;
+}
+
+.card__description,
+.card__number__label {
+    color: hsl(217, 12%, 63%);
+}
+
+.card__numbers-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+
+.card__number {
+    position: relative;
+}
+
+.card__number__input {
+    width: 45px;
+    height: 45px;
+    visibility: hidden;
+    position: relative;
+}
+
+.card__number__input:after {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-color: #323840d6;
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+input[type='radio']:hover:after {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    background-color: hsl(217, 12%, 63%);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    cursor: pointer;
+
+}
+
+input[type='radio']:checked:after {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    background-color: hsl(25, 97%, 53%);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+
+
+input[type='radio']:checked + .card__number__label,
+input[type='radio']:hover + .card__number__label {
+    color: #ffffff;
+}
+
+
+.card__number__label {
+    position: absolute;
+    top: calc(50% - 9.64px);
+    left: calc(50% - 3.91px);
+}
+
+
+.card__submit {
+    color: #ffffff;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.card__submit:hover {
+    background-color: #ffffff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.card__second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__thank-you-img {
+    width: 170px;
+    height: 110px;
+}
+
+.def {
+    color: hsl(25, 97%, 53%);
+    background-color: #323840d6;
+    width: 50%;
+    border-radius: 25px;
+    margin: 30px 0 25px 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__description {
+    font-size: 16.5px;
+    text-align: center;
+}
+
