@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: max-content;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+.container__content {
+    margin: 100px 400px 0 250px;
+    position: relative;
+}
+
+.container__logo {
+    margin-bottom: 100px;
+}
+
+.container__title-first-part, ::placeholder {
+    font-weight: 300;
+}
+
+.container__title-first-part, .container__text, ::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+.container__title-second-part {
+    color: #4D4948;
+    letter-spacing: 15px;
+}
+
+.container__title-first-part, .container__title-second-part {
+    font-size: 80px;
+    margin: 0;
+}
+
+.container__text {
+    line-height: 25px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.container__email-address  {
+    border: 2px solid hsl(0, 36%, 70%);
+    border-radius: 25px;
+    height: 55px;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+
+}
+
+.container__email-address--error {
+    border: 2px solid  hsl(0, 93%, 68%);
+    position: relative;
+}
+
+.container__icon-error {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    bottom: 152px;
+    left: 300px;
+}
+
+.icon-error-visible {
+    display: flex;
+    visibility: visible;
+
+}
+
+.container__email-address:focus {
+    outline: none !important;
+    border-color: hsl(0, 36%, 70%);
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.container__button {
+    width: 105px;
+    height: 55px;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    position: relative;
+    border-radius: 25px;
+    left: calc(100% - 105px);
+    box-shadow: 0 10px 25px hsl(0deg 80% 86%);
+    border: none;
+}
+
+.after-click-visible {
+    bottom: 55px;
+}
+
+.container__icon-arrow {
+    align-items: center;
+    position: relative;
+}
+
+.container__button:hover {
+    background: linear-gradient(135deg, hsl(0deg 100% 92%), hsl(0deg 80% 86%));
+    cursor: pointer;
+}
+
+.container__messageError {
+    color: hsl(0, 93%, 68%);
+    font-size: 13px;
+    margin: 0 0 0 20px;
+    position: absolute;
+    bottom: 105px;
+}
