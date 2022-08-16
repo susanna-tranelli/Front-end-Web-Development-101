@@ -1,70 +1,53 @@
-// variabile elementi della lista
-let toDoList =[];
+let numberOfEnter = 0
 
-// funzione per ottenere ciò che scrive l'utente
-function getUserInput() {
-    let userInput = document.getElementById('user-input').value
-    return(userInput)
-}
+function toggleTheme() {
+    let main = document.getElementById('main');
 
-// funzione per stampare ciò che ha scritto l'utente o che si trova nella lista
-function printUserInput(input) {
-    let toDoList = document.getElementById('to-do-list')
+    if (main.classList.contains('main--light')) {
+        main.classList.remove('main--light')
+        main.classList.add('main--dark')
+        document.getElementById("switch-theme").src="images/icon-sun.svg";
+        document.getElementById("switch-theme").alt="icon-sun";
 
-    let listItem = document.createElement('div')
-    listItem.classList.add('list__item')
-
-    let listCheckbox = document.createElement('input')
-    listCheckbox.classList.add('list__checkbox')
-    listCheckbox.setAttribute('type', 'checkbox')
-
-    let listText = document.createElement('div')
-    listText.classList.add('list__text')
-    listText.textContent = input
-
-    let deleteListItem = document.createElement('div')
-    deleteListItem.classList.add('list__close')
-    deleteListItem.setAttribute('onclick', 'deleteListItem(this)')
-
-    listItem.appendChild(listCheckbox)
-    listItem.appendChild(listText)
-    listItem.appendChild(deleteListItem)
-    toDoList.appendChild(listItem)
-}
-
-// funzione per salvare ciò che ha scritto un utente nel localstorage
-function saveUserInput(input) {
-    toDoList.push(input)
-    localStorage.setItem("toDoList", JSON.stringify(toDoList));
-}
-
-// funzione per evitare la sovrascrittura del localstorage
-if (localStorage.getItem('toDoList') != null) {
-    toDoList = JSON.parse(localStorage.getItem('toDoList'))
-    for (let i = 0; i < toDoList.length; i++) {
-        printUserInput(toDoList[i])
+    } else if (main.classList.contains('main--dark')) {
+        main.classList.remove('main--dark')
+        main.classList.add('main--light')
+        document.getElementById("switch-theme").src="images/icon-moon.svg";
+        document.getElementById("switch-theme").alt="icon-moon";
     }
 }
 
-// evento che parte alla premuta del tasto invio sulla tastiera
-document.getElementById('user-input').addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-        getUserInput()
-        printUserInput(getUserInput())
-        saveUserInput(getUserInput())
-    }
-});
+function createNewTodo(num) {
+    let userInput = document.getElementById('new-todo').value;
 
-//funzione che parte all'onclick di un quadratino rosso che serve ad eliminare un listItem
-function deleteListItem(input) {
-    let listItem = input.parentElement;
-    listItem.remove()
+    let todoItem = document.createElement("div");
+    let todoInput = document.createElement("input");
+    let todoLabel = document.createElement("label");
 
-    const index = toDoList.indexOf(input.previousSibling.textContent);
+    todoItem.setAttribute('class', 'todo-item')
+    todoInput.setAttribute('id', num)
+    todoInput.setAttribute('type', 'checkbox')
+    todoLabel.setAttribute('for', num)
 
-    if (index > -1) {
-        toDoList.splice(index, 1);
-    }
+    todoItem.appendChild(todoInput);
+    todoItem.appendChild(todoLabel);
 
-    localStorage.setItem("toDoList", JSON.stringify(toDoList));
+    todoLabel.textContent = userInput;
+
+    document.getElementById('todo-list').appendChild(todoItem);
+    document.getElementById(num).addEventListener('click', (e) => completeTodo(e))
 }
+
+function completeTodo(e) {
+    e.target.parentElement.classList.toggle('todo-item--checked')
+}
+
+
+document.getElementById("switch-theme").addEventListener('click',(e) => toggleTheme())
+
+document.getElementById('new-todo').addEventListener("keydown", function (e) {
+    if (e.code === "Enter" && document.getElementById('new-todo').value !== '') {
+        numberOfEnter++
+        createNewTodo(numberOfEnter.toString())
+    }
+})

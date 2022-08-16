@@ -3,31 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Todo app</title>
 
 </head>
 <body>
+<div id="main" class="main main--light">
+  <div class="container">
+    <div class="header">
+      <h1 class="header__title">TODO</h1>
+      <img id="switch-theme" class="header__image" src="images/icon-moon.svg" alt="icon-moon">
+    </div>
 
-<div class="container">
+    <div class="new-todo">
+      <input type="checkbox">
+      <input class="new-todo__input" type="text" name="" id="new-todo" placeholder="Create a new todo...">
+    </div>
 
-  <div class="header">
-    <h1>T O D O</h1>
-    <img class="header__icon" src="images/icon-sun.svg">
-  </div>
+    <div class="todo-container">
 
-  <div class="input">
-    <input class="input__checkbox" type="checkbox" >
-    <input class="input__task" id="user-input" placeholder="Create a new todo...">
+      <div id="todo-list" class="todo-container__list">
+
+      </div>
+
+      <div class="todo-container__actions">
+        <span id="number-of-items" class="unchecked-items">5 items left</span>
+        <div class="filters">
+          <button id="all" class="filters__button">All</button>
+          <button id="active" class="filters__button">Active</button>
+          <button id="completed" class="filters__button">Completed</button>
+        </div>
+        <button id="clear" class="clear-button">Clear Completed</button>
+      </div>
+    </div>
+
+    <span class="footer">Drag and drop to recorder list</span>
   </div>
 </div>
-
-<div class="list" id="to-do-list"></div>
-
 <script src="script.js"></script>
 </body>
 </html>
