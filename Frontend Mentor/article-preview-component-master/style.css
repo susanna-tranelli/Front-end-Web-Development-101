@@ -1,0 +1,130 @@
+* {
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #EDF2F8;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.card {
+    background-color: #ffffff;
+    display: flex;
+    width: 730px;
+    border-radius: 15px;
+    overflow: visible;
+}
+
+.card__section {
+    padding: 40px;
+    overflow: visible;
+}
+
+.card__title {
+    font-size: 22px;
+    margin: 0;
+}
+
+.card__paragraph {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+}
+
+.card__footer-details {
+    display: flex;
+}
+
+.card__personal-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card__avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.card__name, .card__date {
+    font-size: 12px;
+    margin: 0;
+}
+
+.card__title, .card__name {
+    color: hsl(217, 19%, 35%);
+}
+
+.card__paragraph, .card__date {
+    color: hsl(214, 17%, 51%);
+}
+
+.card__footer-cloud--icon {
+    border-radius: 25px;
+    height: 30px;
+    width: 30px;
+    border: none;
+
+}
+
+.card__footer-cloud--icon:hover {
+    background-color: hsl(212, 23%, 69%);
+    cursor: pointer;
+}
+
+.container {
+    visibility: hidden;
+    background-color: #49556B;
+    width: 240px;
+    height: 55px;
+    padding: 5px;
+bottom: 60px;
+    right: -110px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    overflow: visible;
+}
+
+.container__open {
+    visibility: visible;
+}
+
+.card__footer-cloud--option {
+    font-size: 12px;
+    margin-right: 15px;
+    color: hsl(214, 17%, 51%);
+}
+.container__open:after {
+    content: "";
+    border-top: 20px solid #49556B;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 33px solid transparent;
+    position: absolute;
+    top: 60px;
+}
+
+.container__open:before {
+    content: "";
+}

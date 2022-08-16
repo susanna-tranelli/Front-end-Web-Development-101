@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #C5E4E7;
+    margin: 60px;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 850px;
+    margin: 60px auto;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__option {
+    position: relative;
+}
+
+.card__section {
+    color: hsl(184deg 10% 46%);
+}
+
+.card__insert-bill, .card__number-of-people {
+    width: 350px;
+    background-color: #F3F8FB;
+    border: none;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+    font-size: 19px;
+    text-align: right;
+}
+
+.card__insert-bill:hover,
+.card__number-of-people:hover,
+.card__custom:hover {
+    border: 2px solid hsl(172, 67%, 45%);
+    cursor: pointer;
+}
+
+.card__insert-bill:focus,
+.card__number-of-people:focus {
+    text-align: right;
+    border: 2px solid hsl(172, 67%, 45%);
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+    font-size: 19px;
+}
+
+.card__icon-dollar, .card__icon-person {
+    position: absolute;
+    left: 15px;
+}
+
+.card__icon-dollar {
+    top: 70px;
+}
+
+.card__icon-person {
+    bottom: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card__percentage {
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.card__percentage:hover {
+    cursor: pointer;
+    background-color: #9FE8DF;
+    color: hsl(183, 100%, 15%);
+}
+
+.card__custom {
+    color: hsl(184deg 10% 46%);
+    background-color: #F3F8FB;
+    font-family: 'Space Mono', monospace;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    font-size: 24px;
+}
+
+.card__calculator {
+    background-color: hsl(183, 100%, 15%);
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.card__calculator-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    width: 300px;
+}
+
+.card__calculator-title {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.card__calculator-person {
+    color: hsl(184, 14%, 56%);
+    font-size: 10px;
+}
+
+.card__reset {
+    font-size: 19px;
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%);
+    width: 305px;
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 28%;
+    cursor: pointer;
+}
+
+.card__reset:hover {
+    background-color: #B6DCDF;
+}
+
+.card__calculator-total, .card__calculator-amount-tip {
+    font-size: 30px;
+    color: hsl(172, 67%, 45%);;
+}
+

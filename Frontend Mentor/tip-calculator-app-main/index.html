@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+
+<div>
+  <img class="logo" src="images/logo.svg">
+  <div class="card">
+    <div class="card__option">
+
+      <p class="card__section">Bill</p>
+      <input id="input-bill" class="card__insert-bill" type="number" name="input-bill">
+      <img class="card__icon-dollar" src="images/icon-dollar.svg">
+
+      <p class="card__section">Select Tip %</p>
+      <div id="card-percentage">
+
+        <button value="0.05" name="value" class="card__percentage">
+          5%
+        </button>
+
+        <button value="0.10" name="value" class="card__percentage">
+          10%
+        </button>
+
+        <button value="0.15" name="value" class="card__percentage">
+          15%
+        </button>
+        <br>
+
+        <button value="0.25" name="value" class="card__percentage">
+          25%
+        </button>
+
+        <button value="0.50" name="value" class="card__percentage">
+          50%
+        </button>
+
+        </div>
+      <div>
+        <button class="card__custom">
+          Custom
+        </button>
+      </div>
+
+      <p class="card__section">Number of People</p>
+      <input id="number-of-people" class="card__number-of-people" type="number" name="number-of-people">
+      <img class="card__icon-person" src="images/icon-person.svg">
+    </div>
+
+
+    <div class="card__calculator">
+
+        <div class="card__calculator-box">
+          <div>
+            <div class="card__calculator-title">Tip Amount</div>
+            <div class="card__calculator-person">/ person</div>
+          </div>
+          <div id="amount-tip" class="card__calculator-amount-tip"></div>
+        </div>
+
+        <div class="card__calculator-box">
+          <div>
+            <div class="card__calculator-title">Total</div>
+            <div class="card__calculator-person">/ person</div>
+          </div>
+          <div id="total" class="card__calculator-total"></div>
+        </div>
+
+      <button id='resetButton' class="card__reset" onclick="reset()">RESET</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
