@@ -34,13 +34,13 @@
       </div>
 
       <div class="todo-container__actions">
-        <span id="number-of-items" class="unchecked-items">5 items left</span>
+        <span id="number-of-items" class="unchecked-items">0 items left</span>
         <div class="filters">
-          <button id="all" class="filters__button">All</button>
-          <button id="active" class="filters__button">Active</button>
-          <button id="completed" class="filters__button">Completed</button>
+          <button id="all" class="filters__button" onclick="showAll()">All</button>
+          <button id="active" class="filters__button" onclick="showActive()">Active</button>
+          <button id="completed" class="filters__button" onclick="showCompleted()">Completed</button>
         </div>
-        <button id="clear" class="clear-button">Clear Completed</button>
+        <button id="clear" class="clear-button" onclick="clearChecked()">Clear Completed</button>
       </div>
     </div>
 

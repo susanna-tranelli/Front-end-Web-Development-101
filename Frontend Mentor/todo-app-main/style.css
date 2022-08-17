@@ -135,6 +135,7 @@ input[type="checkbox"]:checked::after {
     align-items: center;
     border-bottom: 1px solid #e0e0eb;
     color: hsl(235deg 20% 51%);
+    position: relative;
 }
 
 .todo-item label:hover {
@@ -188,4 +189,19 @@ input[type="checkbox"]:checked::after {
 
 .todo-item--checked{
     text-decoration: line-through;
+}
+
+.cross-icon {
+    position: absolute;
+    right: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.todo-item:hover .cross-icon {
+    display: block;
+}
+
+.todo-item--hidden {
+    display: none
 }
