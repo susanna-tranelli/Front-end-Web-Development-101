@@ -4,14 +4,31 @@ let defaultTheme = 'light'
 
 let mainThemeStored
 
+let clientListItems = []
+
 if(localStorage.key("isTheLightTheme")){
     mainThemeStored = localStorage.getItem("isTheLightTheme");
 
     if(!(mainThemeStored === defaultTheme)) {
-        // defaultTheme = mainThemeStored;
+        defaultTheme = mainThemeStored;
         toggleTheme()
     }
 }
+
+function saveDataInLocalStorage() {
+    let newTodoValue = document.getElementById('new-todo').value
+    clientListItems.push(newTodoValue)
+    localStorage.setItem('todoSaved', JSON.stringify(clientListItems))
+}
+
+
+function getStoredItems() {
+    if (localStorage.getItem("todoSaved") != null) {
+        let storedItems = JSON.parse(localStorage.getItem('todoSaved'));
+
+    }
+}
+
 
 function toggleTheme() {
     let main = document.getElementById('main');
@@ -32,6 +49,7 @@ function toggleTheme() {
     }
 
     localStorage.setItem('isTheLightTheme', defaultTheme);
+
 }
 
 function createNewTodo(num) {
@@ -46,6 +64,7 @@ function createNewTodo(num) {
     todoInput.setAttribute('id', num)
     todoInput.setAttribute('type', 'checkbox')
     todoLabel.setAttribute('for', num)
+    todoLabel.setAttribute('id', 'created-label')
     crossIcon.setAttribute('class', 'cross-icon')
     crossIcon.setAttribute('id', `cross-icon-${num}`)
     crossIcon.src = 'images/icon-cross.svg';
@@ -61,6 +80,7 @@ function createNewTodo(num) {
     document.getElementById('cross-icon')
     document.getElementById(`cross-icon-${num}`).addEventListener('click', (e) => deleteTodoItem(e))
     countItemsLeft()
+
 }
 
 function completeTodo(e) {
@@ -126,6 +146,8 @@ document.getElementById('new-todo').addEventListener("keydown", function (e) {
     if (e.code === "Enter" && document.getElementById('new-todo').value !== '') {
         numberOfEnter++
         createNewTodo(numberOfEnter.toString())
+        saveDataInLocalStorage()
+        getStoredItems()
     }
 })
 
