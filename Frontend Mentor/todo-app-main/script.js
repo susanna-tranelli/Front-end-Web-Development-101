@@ -1,3 +1,5 @@
+import {countItemsLeft, createNewTodo} from './countItemsLeft.js'
+
 let numberOfEnter = 0
 
 let defaultTheme = 'light'
@@ -22,13 +24,15 @@ function saveDataInLocalStorage() {
 }
 
 
-function getStoredItems() {
-    if (localStorage.getItem("todoSaved") != null) {
-        let storedItems = JSON.parse(localStorage.getItem('todoSaved'));
-
+if (localStorage.getItem("todoSaved") != null) {
+    let storedItems = JSON.parse(localStorage.getItem('todoSaved'));
+    clientListItems = storedItems
+    for (let i = 0; i < storedItems.length; i++) {
+        console.log(storedItems[i]);
+        numberOfEnter++
+        createNewTodo(numberOfEnter.toString(), storedItems[i])
     }
 }
-
 
 function toggleTheme() {
     let main = document.getElementById('main');
@@ -52,43 +56,13 @@ function toggleTheme() {
 
 }
 
-function createNewTodo(num) {
-    let userInput = document.getElementById('new-todo').value;
 
-    let todoItem = document.createElement("div");
-    let todoInput = document.createElement("input");
-    let todoLabel = document.createElement("label");
-    let crossIcon = document.createElement('img')
-
-    todoItem.setAttribute('class', 'todo-item')
-    todoInput.setAttribute('id', num)
-    todoInput.setAttribute('type', 'checkbox')
-    todoLabel.setAttribute('for', num)
-    todoLabel.setAttribute('id', 'created-label')
-    crossIcon.setAttribute('class', 'cross-icon')
-    crossIcon.setAttribute('id', `cross-icon-${num}`)
-    crossIcon.src = 'images/icon-cross.svg';
-
-    todoItem.appendChild(todoInput);
-    todoItem.appendChild(todoLabel);
-    todoItem.appendChild(crossIcon);
-
-    todoLabel.textContent = userInput;
-
-    document.getElementById('todo-list').appendChild(todoItem);
-    document.getElementById(num).addEventListener('click', (e) => completeTodo(e))
-    document.getElementById('cross-icon')
-    document.getElementById(`cross-icon-${num}`).addEventListener('click', (e) => deleteTodoItem(e))
-    countItemsLeft()
-
-}
-
-function completeTodo(e) {
+export function completeTodo(e) {
     e.target.parentElement.classList.toggle('todo-item--checked')
     countItemsLeft()
 }
 
-function deleteTodoItem(e) {
+export function deleteTodoItem(e) {
     e.target.parentElement.remove()
     countItemsLeft()
 }
@@ -132,22 +106,15 @@ function clearChecked() {
     countItemsLeft()
 }
 
-function countItemsLeft() {
-    let numberOfTodoItem = document.querySelectorAll('.todo-item').length
-    let numberOfCompletedItem = document.querySelectorAll('.todo-item--checked').length
-    let numberOfItemsLeft = numberOfTodoItem - numberOfCompletedItem
 
-    document.getElementById('number-of-items').textContent = numberOfItemsLeft.toString() + ' items left'
-}
 
 document.getElementById("switch-theme").addEventListener('click',(e) => toggleTheme())
 
 document.getElementById('new-todo').addEventListener("keydown", function (e) {
     if (e.code === "Enter" && document.getElementById('new-todo').value !== '') {
         numberOfEnter++
-        createNewTodo(numberOfEnter.toString())
+        createNewTodo(numberOfEnter.toString(), document.getElementById('new-todo').value)
         saveDataInLocalStorage()
-        getStoredItems()
     }
 })
 
